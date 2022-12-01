@@ -8,8 +8,7 @@ namespace WebAPIDemo.Repositories
 
         private readonly ApplicationDbContext _context;
 
-        public ProductRepository(ApplicationDbContext context
-            )
+        public ProductRepository(ApplicationDbContext context)
         {
             _context = context;
         }
